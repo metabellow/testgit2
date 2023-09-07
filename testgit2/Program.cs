@@ -10,8 +10,18 @@ namespace testgit2
     {
         static void Main(string[] args)
         {
-            //
-            Console.WriteLine("Hello");
+
+            Console.Write("Введите число: ");
+            int n = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine(fack(n));
+            Console.ReadKey();
         }
+
+            public static int fack(int n)
+            {
+                if (n == 1) return 1;
+                else return n * fack(n - 1);
+            }
     }
 }

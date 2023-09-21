@@ -28,7 +28,7 @@ namespace testgit2
 
         public static double Function(double n)
         {
-             double res = Math.Sqrt(Math.Log(4.0/3.0)) + n + (9.0 / 7.0) - Math.Exp(Math.Sin((1.3 * n) - 0.7));
+            double res = Math.Sqrt(Math.Log(4.0 / 3.0)) + n + (9.0 / 7.0) - Math.Exp(Math.Sin((1.3 * n) - 0.7));
 
 
             return res;
@@ -41,12 +41,18 @@ namespace testgit2
 
             Console.WriteLine($"Последовательность Фибоначчи до {n}: ");
 
-            for (int i = 0; i<n; i++)
+            for (int i = 0; i < n+1; i++)
             {
-                Console.Write(a + " ");
-                int temp = a;
-                a = b;
-                b = temp + a;
+                if (a <= n)
+                {
+                    Console.Write(a + " ");
+                    int temp = a;
+                    a = b;
+                    b = temp + b;
+                }
+                else { break; }
+
+
             }
         }
 

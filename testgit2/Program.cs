@@ -14,15 +14,16 @@ namespace testgit2
             Console.Write("Введите число: ");
             int n = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine($"Факториал числа {n}: {Fack(n)}");
-            Console.WriteLine($"Расчет функции от {n}. Вариант 1: {Function(n)}");
+            Console.WriteLine($"Факториал числа {n}: {Factorial(n)}");
+            Console.WriteLine($"Расчет функции при значении x = {n}. Вариант 1: {Function(n)}");
+            Fibonachi(n);
             Console.ReadKey();
         }
 
-        public static int Fack(int n)
+        public static int Factorial(int n)
         {
             if (n == 1) return 1;
-            else return n * Fack(n - 1);
+            else return n * Factorial(n - 1);
         }
 
         public static double Function(double n)
@@ -33,7 +34,21 @@ namespace testgit2
             return res;
         }
 
+        public static void Fibonachi(int n)
+        {
+            int a = 0;
+            int b = 1;
 
+            Console.WriteLine($"Последовательность Фибоначчи до {n}: ");
+
+            for (int i = 0; i<n; i++)
+            {
+                Console.Write(a + " ");
+                int temp = a;
+                a = b;
+                b = temp + a;
+            }
+        }
 
     }
 }

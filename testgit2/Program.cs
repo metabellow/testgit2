@@ -65,7 +65,7 @@ namespace testgit2
 
         public static void Taylor()
         {     
-            double n = 5.0;
+            double n = 1.0;
 
             Console.WriteLine($"Разложение sin({n}) по ряду Тейлора");
             Console.Write($"Введите точность после запятой: ");
@@ -82,7 +82,7 @@ namespace testgit2
             int j = 0;
             double raz;
             double temp;
-            double eps = Math.Pow(0.1, n);
+            double eps = Math.Pow(10, -n);
 
 
             do

@@ -75,19 +75,6 @@ namespace testgit2
             Console.WriteLine($"sin({n}) примерно равен: {CalculateSinTaylor(n, count)}");
         }
 
-        //public static double CalculateSinTaylor(double x, int n)
-        //{
-        //    double result = 0.0;
-
-        //    for (int i = 0; i < n; i++)
-        //    {
-        //        int exp = 2 * i + 1;
-        //        double temp = Math.Pow(-1, i) * Math.Pow(x, exp) / Factorial(exp);
-        //        result += temp;
-        //    }
-
-        //    return result;
-        //}
 
         public static double CalculateSinTaylor(double x, int n)
         {

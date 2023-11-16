@@ -8,5 +8,21 @@ namespace Computer
 {
     internal class Power
     {
+        public int PowerW { get; set; }
+
+        public Power(int powerW)
+        {
+            PowerW = powerW;
+        }
+
+        public void PowerOn()
+        {
+            Console.WriteLine("Компьютер запущен");
+        }
+
+        public void PowerOff()
+        {
+            Console.WriteLine("Компьютер выключен");
+        }
     }
 }

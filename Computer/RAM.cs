@@ -8,5 +8,11 @@ namespace Computer
 {
     internal class RAM
     {
+        public int CapacityGB { get; set; }
+
+        public RAM(int capacity) 
+        { 
+            CapacityGB = capacity;
+        }
     }
 }

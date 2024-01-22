@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{951FC5AB-E8B1-4B77-BD02-756373AA6E38}</ProjectGuid>
+    <ProjectGuid>{F2F139DB-A07F-4679-B7BD-54AC1ED57DC2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>testgit2</RootNamespace>
-    <AssemblyName>testgit2</AssemblyName>
+    <RootNamespace>Lab6</RootNamespace>
+    <AssemblyName>Lab6</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,7 +45,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Taylor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

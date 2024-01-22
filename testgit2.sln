@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Computer", "Computer\Comput
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shapes", "Shapes\Shapes.csproj", "{760E96BB-D9F5-4E98-8E21-CF0CA5F40BCA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab6_Sin", "Lab6_Sin\Lab6_Sin.csproj", "{C1B69214-1F2D-472C-A0BF-199CA0420DCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaylorSinus", "TaylorSinus\TaylorSinus.csproj", "{37532B89-E0EA-4693-A7E4-1E9F66FC68E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{760E96BB-D9F5-4E98-8E21-CF0CA5F40BCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{760E96BB-D9F5-4E98-8E21-CF0CA5F40BCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{760E96BB-D9F5-4E98-8E21-CF0CA5F40BCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1B69214-1F2D-472C-A0BF-199CA0420DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1B69214-1F2D-472C-A0BF-199CA0420DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1B69214-1F2D-472C-A0BF-199CA0420DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1B69214-1F2D-472C-A0BF-199CA0420DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37532B89-E0EA-4693-A7E4-1E9F66FC68E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37532B89-E0EA-4693-A7E4-1E9F66FC68E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37532B89-E0EA-4693-A7E4-1E9F66FC68E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37532B89-E0EA-4693-A7E4-1E9F66FC68E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

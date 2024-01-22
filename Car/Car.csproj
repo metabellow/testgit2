@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{951FC5AB-E8B1-4B77-BD02-756373AA6E38}</ProjectGuid>
+    <ProjectGuid>{275482D0-F494-40AC-A936-19F6F3B90268}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>testgit2</RootNamespace>
-    <AssemblyName>testgit2</AssemblyName>
+    <RootNamespace>Car</RootNamespace>
+    <AssemblyName>Car</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Car.cs" />
+    <Compile Include="Engine.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Taylor.cs" />
+    <Compile Include="Wheel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
